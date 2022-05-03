@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "educacion_continuas",
+  "info": {
+    "singularName": "educacion-continua",
+    "pluralName": "educacion-continuas",
+    "displayName": "Educación Continua"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "document": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

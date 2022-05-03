@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_redes_sociales_socials",
+  "info": {
+    "displayName": "Social",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

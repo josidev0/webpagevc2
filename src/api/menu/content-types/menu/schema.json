@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "menus",
+  "info": {
+    "singularName": "menu",
+    "pluralName": "menus",
+    "displayName": "Menu",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "subMenus": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::submenu.submenu",
+      "mappedBy": "menu"
+    },
+    "showCarousel": {
+      "type": "boolean",
+      "default": true
+    },
+    "position": {
+      "type": "integer",
+      "required": true,
+      "default": 10,
+      "unique": true
+    },
+    "carousel": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::carrusel.carrusel",
+      "inversedBy": "menu"
+    }
+  }
+}

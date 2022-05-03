@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "formato_convenios",
+  "info": {
+    "singularName": "formato-convenio",
+    "pluralName": "formato-convenios",
+    "displayName": "Formato - Convenios"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "document": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

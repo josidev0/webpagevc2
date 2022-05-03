@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ejecucion_presupuesto_externos",
+  "info": {
+    "singularName": "ejecucion-presupuesto-externo",
+    "pluralName": "ejecucion-presupuesto-externos",
+    "displayName": "Ejecución Presupuesto Externo",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "document": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "files"
+      ]
+    }
+  }
+}

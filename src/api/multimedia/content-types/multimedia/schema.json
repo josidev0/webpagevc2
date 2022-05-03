@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "multimedias",
+  "info": {
+    "singularName": "multimedia",
+    "pluralName": "multimedias",
+    "displayName": "Información",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "descripcion": {
+      "type": "richtext",
+      "required": false
+    },
+    "mision": {
+      "type": "richtext"
+    },
+    "vision": {
+      "type": "richtext"
+    },
+    "team": {
+      "type": "richtext"
+    },
+    "attributions_responsibilities": {
+      "type": "richtext"
+    }
+  }
+}

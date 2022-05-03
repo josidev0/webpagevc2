@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "carruseles",
+  "info": {
+    "singularName": "carrusel",
+    "pluralName": "carruseles",
+    "displayName": "Carruseles",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "menu": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::menu.menu",
+      "mappedBy": "carousel"
+    },
+    "submenu": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::submenu.submenu",
+      "inversedBy": "carousel"
+    }
+  }
+}

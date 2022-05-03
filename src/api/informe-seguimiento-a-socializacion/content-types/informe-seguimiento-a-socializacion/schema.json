@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "informes_seguimiento_a_socializaciones",
+  "info": {
+    "singularName": "informe-seguimiento-a-socializacion",
+    "pluralName": "informes-seguimiento-a-socializaciones",
+    "displayName": "Informes de Seguimiento a las Socializaciones",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "document": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "files"
+      ]
+    }
+  }
+}

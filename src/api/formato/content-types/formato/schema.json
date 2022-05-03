@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "formatos",
+  "info": {
+    "singularName": "formato",
+    "pluralName": "formatos",
+    "displayName": "Formatos de Proyectos",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "document": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "files"
+      ]
+    }
+  }
+}
