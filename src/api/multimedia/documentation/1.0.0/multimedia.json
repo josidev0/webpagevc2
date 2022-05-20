@@ -38,6 +38,19 @@
                               "attributions_responsibilities": {
                                 "type": "string"
                               },
+                              "show_description": {
+                                "type": "boolean"
+                              },
+                              "show_team": {
+                                "type": "boolean"
+                              },
+                              "show_attributions": {
+                                "type": "boolean"
+                              },
+                              "creation_date": {
+                                "type": "string",
+                                "format": "date"
+                              },
                               "createdAt": {
                                 "type": "string",
                                 "format": "date-time"
@@ -636,6 +649,19 @@
                             "attributions_responsibilities": {
                               "type": "string"
                             },
+                            "show_description": {
+                              "type": "boolean"
+                            },
+                            "show_team": {
+                              "type": "boolean"
+                            },
+                            "show_attributions": {
+                              "type": "boolean"
+                            },
+                            "creation_date": {
+                              "type": "string",
+                              "format": "date"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -1122,6 +1148,19 @@
                       },
                       "attributions_responsibilities": {
                         "type": "string"
+                      },
+                      "show_description": {
+                        "type": "boolean"
+                      },
+                      "show_team": {
+                        "type": "boolean"
+                      },
+                      "show_attributions": {
+                        "type": "boolean"
+                      },
+                      "creation_date": {
+                        "type": "string",
+                        "format": "date"
                       },
                       "createdAt": {
                         "type": "string",

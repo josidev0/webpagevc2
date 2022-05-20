@@ -25,21 +25,11 @@
       "target": "api::submenu.submenu",
       "mappedBy": "menu"
     },
-    "showCarousel": {
-      "type": "boolean",
-      "default": true
-    },
     "position": {
       "type": "integer",
       "required": true,
       "default": 10,
       "unique": true
-    },
-    "carousel": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::carrusel.carrusel",
-      "inversedBy": "menu"
     }
   }
 }

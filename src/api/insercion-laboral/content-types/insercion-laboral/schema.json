@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "inserciones_laborales",
+  "info": {
+    "singularName": "insercion-laboral",
+    "pluralName": "inserciones-laborales",
+    "displayName": "Inserción Laboral",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

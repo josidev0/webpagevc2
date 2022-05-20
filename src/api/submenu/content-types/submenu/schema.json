@@ -28,11 +28,13 @@
       "target": "api::menu.menu",
       "inversedBy": "subMenus"
     },
-    "carousel": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::carrusel.carrusel",
-      "inversedBy": "submenu"
+    "isExternal": {
+      "type": "boolean",
+      "default": false,
+      "required": false
+    },
+    "externalURL": {
+      "type": "string"
     }
   }
 }

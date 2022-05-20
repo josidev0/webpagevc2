@@ -31,6 +31,22 @@
     },
     "attributions_responsibilities": {
       "type": "richtext"
+    },
+    "show_description": {
+      "type": "boolean",
+      "default": true
+    },
+    "show_team": {
+      "type": "boolean",
+      "default": true
+    },
+    "show_attributions": {
+      "type": "boolean",
+      "default": true
+    },
+    "creation_date": {
+      "type": "date",
+      "default": "2001-01-30"
     }
   }
 }
