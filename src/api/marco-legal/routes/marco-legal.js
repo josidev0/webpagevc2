@@ -1,9 +1,9 @@
-'use strict';
+"use strict";
 
 /**
  * marco-legal router.
  */
 
-const { createCoreRouter } = require('@strapi/strapi').factories;
+const { createCoreRouter } = require("@strapi/strapi").factories;
 
-module.exports = createCoreRouter('api::marco-legal.marco-legal');
+module.exports = createCoreRouter("api::marco-legal.marco-legal");

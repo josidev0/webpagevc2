@@ -1,9 +1,11 @@
-'use strict';
+"use strict";
 
 /**
  * convenio-interinstitucional router.
  */
 
-const { createCoreRouter } = require('@strapi/strapi').factories;
+const { createCoreRouter } = require("@strapi/strapi").factories;
 
-module.exports = createCoreRouter('api::convenio-interinstitucional.convenio-interinstitucional');
+module.exports = createCoreRouter(
+  "api::convenio-interinstitucional.convenio-interinstitucional"
+);

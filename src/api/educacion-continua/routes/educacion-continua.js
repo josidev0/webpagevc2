@@ -1,9 +1,9 @@
-'use strict';
+"use strict";
 
 /**
  * educacion-continua router.
  */
 
-const { createCoreRouter } = require('@strapi/strapi').factories;
+const { createCoreRouter } = require("@strapi/strapi").factories;
 
-module.exports = createCoreRouter('api::educacion-continua.educacion-continua');
+module.exports = createCoreRouter("api::educacion-continua.educacion-continua");
