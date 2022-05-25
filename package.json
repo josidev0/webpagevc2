@@ -7,14 +7,15 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "watch": "strapi watch-admin"
   },
   "devDependencies": {},
   "dependencies": {
     "@strapi/plugin-documentation": "^4.1.8",
     "@strapi/plugin-i18n": "4.1.1",
     "@strapi/plugin-users-permissions": "4.1.11",
-    "@strapi/strapi": "4.1.11",
+    "@strapi/strapi": "4.1.12",
     "pg": "^8.7.3",
     "pg-connection-string": "^2.5.0",
     "strapi-plugin-entity-relationship-chart": "^4.1.0"
