@@ -1,7 +1,7 @@
 "use strict";
 
-const { query } = require("../../../../utils/query");
-const { ReducedData } = require("../../../../utils/reduced-data");
+const { docsQuery } = require("../../../../utils/query");
+const { DocsReducedData } = require("../../../../utils/reduced-data");
 
 /**
  * all-docs service.
@@ -12,42 +12,42 @@ module.exports = {
     try {
       const projects = await strapi.entityService.findMany(
         "api::proyecto.proyecto",
-        query
+        docsQuery
       );
       const externalBudget = await strapi.entityService.findMany(
         "api::ejecucion-presupuesto-externo.ejecucion-presupuesto-externo",
-        query
+        docsQuery
       );
       const informesSeguimiento = await strapi.entityService.findMany(
         "api::informe-seguimiento-a-socializacion.informe-seguimiento-a-socializacion",
-        query
+        docsQuery
       );
       const formatos = await strapi.entityService.findMany(
         "api::formato.formato",
-        query
+        docsQuery
       );
       const marcoLegal = await strapi.entityService.findMany(
         "api::marco-legal.marco-legal",
-        query
+        docsQuery
       );
       const conveniosInterinstitucionales = await strapi.entityService.findMany(
         "api::convenio-interinstitucional.convenio-interinstitucional",
-        query
+        docsQuery
       );
       const formatosConvenios = await strapi.entityService.findMany(
         "api::formato-convenio.formato-convenio",
-        query
+        docsQuery
       );
       const educacionContinua = await strapi.entityService.findMany(
         "api::educacion-continua.educacion-continua",
-        query
+        docsQuery
       );
       const practicasPreprofesionales = await strapi.entityService.findMany(
         "api::practica-preprofesional.practica-preprofesional",
-        query
+        docsQuery
       );
 
-      return ReducedData(projects).concat(
+      return DocsReducedData(projects).concat(
         externalBudget,
         informesSeguimiento,
         formatos,
