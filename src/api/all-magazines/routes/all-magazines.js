@@ -1,15 +1,9 @@
-"use strict";
-
-/**
- * dv-carousel router.
- */
-
 module.exports = {
   routes: [
     {
       method: "GET",
-      path: "/events",
-      handler: "event.findAll",
+      path: "/all-magazines",
+      handler: "all-magazines.findAll",
       config: {
         policies: [],
         middlewares: [],

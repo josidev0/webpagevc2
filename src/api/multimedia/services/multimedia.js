@@ -24,6 +24,14 @@ module.exports = createCoreService(
               "show_team",
               "show_attributions",
             ],
+            populate: {
+              mision_image: {
+                fields: ["id", "name", "url"],
+              },
+              vision_image: {
+                fields: ["id", "name", "url"],
+              },
+            },
           }
         );
         return data;

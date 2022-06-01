@@ -47,6 +47,22 @@
     "creation_date": {
       "type": "date",
       "default": "2001-01-30"
+    },
+    "mision_image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "vision_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
     }
   }
 }
