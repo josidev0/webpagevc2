@@ -1,15 +1,9 @@
-"use strict";
-
-/**
- * multimedia router.
- */
-
 module.exports = {
   routes: [
     {
       method: "GET",
-      path: "/multimedia",
-      handler: "multimedia.findAll",
+      path: "/nav",
+      handler: "nav.findAll",
       config: {
         policies: [],
         middlewares: [],

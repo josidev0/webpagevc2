@@ -1,9 +1,19 @@
-'use strict';
+"use strict";
 
 /**
  * dv-carousel router.
  */
 
-const { createCoreRouter } = require('@strapi/strapi').factories;
-
-module.exports = createCoreRouter('api::dv-carousel.dv-carousel');
+module.exports = {
+  routes: [
+    {
+      method: "GET",
+      path: "/dv-carousel",
+      handler: "dv-carousel.findAll",
+      config: {
+        policies: [],
+        middlewares: [],
+      },
+    },
+  ],
+};
