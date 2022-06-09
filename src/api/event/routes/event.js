@@ -1,19 +1,7 @@
-"use strict";
-
 /**
- * dv-carousel router.
+ * formato-convenio router.
  */
 
-module.exports = {
-  routes: [
-    {
-      method: "GET",
-      path: "/events",
-      handler: "event.findAll",
-      config: {
-        policies: [],
-        middlewares: [],
-      },
-    },
-  ],
-};
+const { createCoreRouter } = require("@strapi/strapi").factories;
+
+module.exports = createCoreRouter("api::event.event");
