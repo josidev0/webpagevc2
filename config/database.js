@@ -1,12 +1,12 @@
 module.exports = ({ env }) => ({
   connection: {
-    client: "mysql",
+    client: "postgres",
     connection: {
-      host: env("DATABASE_HOST", "vinculacion.espoch.edu.ec"),
-      port: env.int("DATABASE_PORT", 3306),
-      database: env("DATABASE_NAME", "c7Vinculacion"),
-      user: env("DATABASE_USERNAME", "c7vinc"),
-      password: env("DATABASE_PASSWORD", "Esp0chV1nc"),
+      host: env("DATABASE_HOST", "127.0.0.1"),
+      port: env.int("DATABASE_PORT", 5432),
+      database: env("DATABASE_NAME", "webpagevc"),
+      user: env("DATABASE_USERNAME", "postgres"),
+      password: env("DATABASE_PASSWORD", "q7oGSSea?4@Lg&di"),
       ssl: env.bool("DATABASE_SSL", false),
     },
   },
