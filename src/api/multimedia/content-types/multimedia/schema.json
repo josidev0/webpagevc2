@@ -57,12 +57,20 @@
       ]
     },
     "vision_image": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "show_vision": {
+      "type": "boolean",
+      "default": true
+    },
+    "show_mision": {
+      "type": "boolean",
+      "default": true
     }
   }
 }
