@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cursos_fortalecimiento_profesional",
+  "info": {
+    "singularName": "curso-fortalecimiento-profesional",
+    "pluralName": "cursos-fortalecimiento-profesional",
+    "displayName": "Cursos de fortalecimiento profesional"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "document": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "isExternal": {
+      "type": "boolean",
+      "default": false
+    },
+    "externalURL": {
+      "type": "string"
+    }
+  }
+}

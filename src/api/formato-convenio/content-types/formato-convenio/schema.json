@@ -4,7 +4,8 @@
   "info": {
     "singularName": "formato-convenio",
     "pluralName": "formato-convenios",
-    "displayName": "Formato - Convenios"
+    "displayName": "Formatos de Convenios",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,12 +17,12 @@
       "required": true
     },
     "document": {
-      "allowedTypes": [
-        "files"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "files"
+      ]
     }
   }
 }

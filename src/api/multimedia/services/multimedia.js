@@ -23,6 +23,10 @@ module.exports = createCoreService(
               "show_description",
               "show_team",
               "show_attributions",
+              "show_mision",
+              "show_vision",
+              "show_team_cm",
+              "show_carousel",
             ],
             populate: {
               mision_image: {

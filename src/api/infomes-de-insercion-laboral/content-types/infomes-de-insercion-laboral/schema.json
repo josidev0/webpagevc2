@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "infomes_de_insercion_laborals",
+  "info": {
+    "singularName": "infomes-de-insercion-laboral",
+    "pluralName": "infomes-de-insercion-laborals",
+    "displayName": "Infomes de Inserción Laboral "
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "document": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": false
+    },
+    "isExternal": {
+      "type": "boolean",
+      "default": false
+    },
+    "externalURL": {
+      "type": "string"
+    }
+  }
+}

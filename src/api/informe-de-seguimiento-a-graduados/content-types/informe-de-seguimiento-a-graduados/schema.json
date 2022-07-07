@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "informes_de_seguimiento_a_graduados",
+  "info": {
+    "singularName": "informe-de-seguimiento-a-graduados",
+    "pluralName": "informes-de-seguimiento-a-graduados",
+    "displayName": "Informes de Seguimiento a Graduados",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "document": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "isExternal": {
+      "type": "boolean",
+      "default": false
+    },
+    "externalURL": {
+      "type": "string"
+    }
+  }
+}
