@@ -19,7 +19,7 @@
     "document": {
       "type": "media",
       "multiple": false,
-      "required": true,
+      "required": false,
       "allowedTypes": [
         "files"
       ]
@@ -29,10 +29,18 @@
       "enum": [
         "GUÍAS ACADÉMICAS",
         "CONVENIOS DE PRACTICAS PREPROFESIONALES",
-        "INFORMACIÓN LEGADO"
+        "INFORMACIÓN COMPLEMENTARIA",
+        "REPORTES"
       ],
       "default": "GUÍAS ACADÉMICAS",
       "required": true
+    },
+    "isExternal": {
+      "type": "boolean",
+      "default": false
+    },
+    "externalURL": {
+      "type": "string"
     }
   }
 }

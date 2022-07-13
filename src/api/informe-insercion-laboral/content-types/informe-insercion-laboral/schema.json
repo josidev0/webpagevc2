@@ -1,11 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "proyectos",
+  "collectionName": "informes_insercion_laboral",
   "info": {
-    "singularName": "proyecto",
-    "pluralName": "proyectos",
-    "displayName": "Proyectos de Vinculación ",
-    "description": ""
+    "singularName": "informe-insercion-laboral",
+    "pluralName": "informes-insercion-laboral",
+    "displayName": "Informes: Inserción Laboral"
   },
   "options": {
     "draftAndPublish": true
@@ -17,12 +16,11 @@
       "required": true
     },
     "document": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
       "allowedTypes": [
         "files"
-      ]
+      ],
+      "type": "media",
+      "multiple": false
     },
     "isExternal": {
       "type": "boolean",

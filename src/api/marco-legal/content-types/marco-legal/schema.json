@@ -24,10 +24,12 @@
         "files"
       ]
     },
-    "isHistorical": {
+    "isExternal": {
       "type": "boolean",
-      "default": false,
-      "required": false
+      "default": false
+    },
+    "externalURL": {
+      "type": "string"
     }
   }
 }

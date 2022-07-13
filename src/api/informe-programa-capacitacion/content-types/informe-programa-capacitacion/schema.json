@@ -1,11 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "proyectos",
+  "collectionName": "informes_programa_capacitacion",
   "info": {
-    "singularName": "proyecto",
-    "pluralName": "proyectos",
-    "displayName": "Proyectos de Vinculación ",
-    "description": ""
+    "singularName": "informe-programa-capacitacion",
+    "pluralName": "informes-programa-capacitacion",
+    "displayName": "Informes: Programa de Capacitación"
   },
   "options": {
     "draftAndPublish": true
@@ -17,12 +16,11 @@
       "required": true
     },
     "document": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
       "allowedTypes": [
         "files"
-      ]
+      ],
+      "type": "media",
+      "multiple": false
     },
     "isExternal": {
       "type": "boolean",
