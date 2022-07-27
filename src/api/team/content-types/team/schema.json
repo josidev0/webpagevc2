@@ -18,14 +18,35 @@
     "email": {
       "type": "email"
     },
-    "workPosition": {
-      "type": "string"
-    },
     "memberImage": {
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": ["images"]
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "isPHD": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "abbreviate": {
+      "type": "enumeration",
+      "enum": [
+        "Ing",
+        "Dr",
+        "Lic",
+        "Lcda",
+        "Econ",
+        "Tlgo"
+      ]
+    },
+    "work_title": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::work-title.work-title",
+      "inversedBy": "equipos"
     }
   }
 }
