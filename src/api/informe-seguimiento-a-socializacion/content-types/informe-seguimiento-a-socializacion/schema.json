@@ -23,6 +23,13 @@
       "allowedTypes": [
         "files"
       ]
+    },
+    "isExternal": {
+      "type": "boolean",
+      "default": false
+    },
+    "externalURL": {
+      "type": "string"
     }
   }
 }

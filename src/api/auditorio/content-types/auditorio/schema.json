@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "auditorios",
+  "info": {
+    "singularName": "auditorio",
+    "pluralName": "auditorios",
+    "displayName": "Auditorio",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "document": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "isExternal": {
+      "type": "boolean",
+      "default": false
+    },
+    "externalURL": {
+      "type": "string"
+    }
+  }
+}

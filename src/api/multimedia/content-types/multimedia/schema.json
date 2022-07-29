@@ -4,7 +4,7 @@
   "info": {
     "singularName": "multimedia",
     "pluralName": "multimedias",
-    "displayName": "Información",
+    "displayName": "Información General",
     "description": ""
   },
   "options": {
@@ -14,39 +14,49 @@
   "attributes": {
     "name": {
       "type": "string",
-      "required": true
+      "required": true,
+      "pluginOptions": {}
     },
     "descripcion": {
       "type": "richtext",
-      "required": false
+      "required": false,
+      "pluginOptions": {}
     },
     "mision": {
-      "type": "richtext"
+      "type": "richtext",
+      "pluginOptions": {}
     },
     "vision": {
-      "type": "richtext"
+      "type": "richtext",
+      "pluginOptions": {}
     },
     "team": {
-      "type": "richtext"
+      "type": "richtext",
+      "pluginOptions": {}
     },
     "attributions_responsibilities": {
-      "type": "richtext"
+      "type": "richtext",
+      "pluginOptions": {}
     },
     "show_description": {
       "type": "boolean",
-      "default": true
+      "default": true,
+      "pluginOptions": {}
     },
     "show_team": {
       "type": "boolean",
-      "default": true
+      "default": true,
+      "pluginOptions": {}
     },
     "show_attributions": {
       "type": "boolean",
-      "default": true
+      "default": true,
+      "pluginOptions": {}
     },
     "creation_date": {
       "type": "date",
-      "default": "2001-01-30"
+      "default": "2001-01-30",
+      "pluginOptions": {}
     },
     "mision_image": {
       "type": "media",
@@ -54,15 +64,35 @@
       "required": true,
       "allowedTypes": [
         "images"
-      ]
+      ],
+      "pluginOptions": {}
     },
     "vision_image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images"
       ],
-      "type": "media",
-      "multiple": false,
-      "required": true
+      "pluginOptions": {}
+    },
+    "show_vision": {
+      "type": "boolean",
+      "default": true,
+      "pluginOptions": {}
+    },
+    "show_mision": {
+      "type": "boolean",
+      "default": true,
+      "pluginOptions": {}
+    },
+    "show_carousel": {
+      "type": "boolean",
+      "default": true
+    },
+    "show_team_cm": {
+      "type": "boolean",
+      "default": true
     }
   }
 }

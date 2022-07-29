@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "encuentros_de_graduados",
+  "info": {
+    "singularName": "encuentro-de-graduados",
+    "pluralName": "encuentros-de-graduados",
+    "displayName": "Encuentros de graduados"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "document": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "isExternal": {
+      "type": "boolean",
+      "default": false
+    },
+    "externalURL": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "formatos_de_seguimieto_a_graduados",
+  "info": {
+    "singularName": "formato-de-seguimieto-a-graduados",
+    "pluralName": "formatos-de-seguimieto-a-graduados",
+    "displayName": "Formatos de Seguimieto a graduados",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "document": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "isExternal": {
+      "type": "boolean",
+      "default": false
+    },
+    "externalURL": {
+      "type": "string"
+    }
+  }
+}

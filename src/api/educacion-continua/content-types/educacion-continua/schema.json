@@ -4,7 +4,8 @@
   "info": {
     "singularName": "educacion-continua",
     "pluralName": "educacion-continuas",
-    "displayName": "Educación Continua"
+    "displayName": "Educación Continua",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,12 +17,19 @@
       "required": true
     },
     "document": {
-      "allowedTypes": [
-        "files"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "isExternal": {
+      "type": "boolean",
+      "default": false
+    },
+    "externalURL": {
+      "type": "string"
     }
   }
 }

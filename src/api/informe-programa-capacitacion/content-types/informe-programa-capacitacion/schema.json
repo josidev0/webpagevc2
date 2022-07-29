@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "informes_programa_capacitacion",
+  "info": {
+    "singularName": "informe-programa-capacitacion",
+    "pluralName": "informes-programa-capacitacion",
+    "displayName": "Informes: Programa de Capacitación"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "document": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "isExternal": {
+      "type": "boolean",
+      "default": false
+    },
+    "externalURL": {
+      "type": "string"
+    }
+  }
+}

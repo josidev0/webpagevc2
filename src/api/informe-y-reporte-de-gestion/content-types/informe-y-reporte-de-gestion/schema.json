@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "informes_y_reportes_de_gestion",
+  "info": {
+    "singularName": "informe-y-reporte-de-gestion",
+    "pluralName": "informes-y-reportes-de-gestion",
+    "displayName": "Informes y Reportes de Gestión",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "document": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "isExternal": {
+      "type": "boolean",
+      "default": false
+    },
+    "externalURL": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "REUVIC",
+        "RENSEG",
+        "Informes de Gestión"
+      ],
+      "default": "Informes de Gestión",
+      "required": true
+    }
+  }
+}
