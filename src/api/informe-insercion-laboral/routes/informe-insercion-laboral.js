@@ -1,10 +1,11 @@
-'use strict';
+"use strict";
 
 /**
  * informe-insercion-laboral router.
  */
 
-const {createCoreRouter} = require('@strapi/strapi').factories;
+const { createCoreRouter } = require("@strapi/strapi").factories;
 
 module.exports = createCoreRouter(
-    'api::informe-insercion-laboral.informe-insercion-laboral');
+  "api::informe-insercion-laboral.informe-insercion-laboral"
+);

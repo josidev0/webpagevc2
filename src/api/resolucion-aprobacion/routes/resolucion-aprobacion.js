@@ -1,10 +1,11 @@
-'use strict';
+"use strict";
 
 /**
  * resolucion-aprobacion router.
  */
 
-const {createCoreRouter} = require('@strapi/strapi').factories;
+const { createCoreRouter } = require("@strapi/strapi").factories;
 
-module.exports =
-    createCoreRouter('api::resolucion-aprobacion.resolucion-aprobacion');
+module.exports = createCoreRouter(
+  "api::resolucion-aprobacion.resolucion-aprobacion"
+);

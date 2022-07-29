@@ -1,10 +1,11 @@
-'use strict';
+"use strict";
 
 /**
  * encuentro-de-graduados service.
  */
 
-const {createCoreService} = require('@strapi/strapi').factories;
+const { createCoreService } = require("@strapi/strapi").factories;
 
-module.exports =
-    createCoreService('api::encuentro-de-graduados.encuentro-de-graduados');
+module.exports = createCoreService(
+  "api::encuentro-de-graduados.encuentro-de-graduados"
+);

@@ -1,9 +1,9 @@
-'use strict';
+"use strict";
 
 /**
  * comercio-justo router.
  */
 
-const {createCoreRouter} = require('@strapi/strapi').factories;
+const { createCoreRouter } = require("@strapi/strapi").factories;
 
-module.exports = createCoreRouter('api::comercio-justo.comercio-justo');
+module.exports = createCoreRouter("api::comercio-justo.comercio-justo");

@@ -1,9 +1,9 @@
-'use strict';
+"use strict";
 
 /**
  *  comercio-justo controller
  */
 
-const {createCoreController} = require('@strapi/strapi').factories;
+const { createCoreController } = require("@strapi/strapi").factories;
 
-module.exports = createCoreController('api::comercio-justo.comercio-justo');
+module.exports = createCoreController("api::comercio-justo.comercio-justo");
