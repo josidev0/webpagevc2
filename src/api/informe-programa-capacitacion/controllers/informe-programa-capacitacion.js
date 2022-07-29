@@ -4,6 +4,7 @@
  *  informe-programa-capacitacion controller
  */
 
-const { createCoreController } = require('@strapi/strapi').factories;
+const {createCoreController} = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::informe-programa-capacitacion.informe-programa-capacitacion');
+module.exports = createCoreController(
+    'api::informe-programa-capacitacion.informe-programa-capacitacion');

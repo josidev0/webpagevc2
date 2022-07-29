@@ -4,6 +4,7 @@
  * resolucion-aprobacion service.
  */
 
-const { createCoreService } = require('@strapi/strapi').factories;
+const {createCoreService} = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::resolucion-aprobacion.resolucion-aprobacion');
+module.exports =
+    createCoreService('api::resolucion-aprobacion.resolucion-aprobacion');

@@ -4,6 +4,7 @@
  * infomes-de-insercion-laboral service.
  */
 
-const { createCoreService } = require('@strapi/strapi').factories;
+const {createCoreService} = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::infomes-de-insercion-laboral.infomes-de-insercion-laboral');
+module.exports = createCoreService(
+    'api::infomes-de-insercion-laboral.infomes-de-insercion-laboral');

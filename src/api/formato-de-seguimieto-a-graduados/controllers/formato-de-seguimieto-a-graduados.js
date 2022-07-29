@@ -4,6 +4,7 @@
  *  formato-de-seguimieto-a-graduados controller
  */
 
-const { createCoreController } = require('@strapi/strapi').factories;
+const {createCoreController} = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::formato-de-seguimieto-a-graduados.formato-de-seguimieto-a-graduados');
+module.exports = createCoreController(
+    'api::formato-de-seguimieto-a-graduados.formato-de-seguimieto-a-graduados');

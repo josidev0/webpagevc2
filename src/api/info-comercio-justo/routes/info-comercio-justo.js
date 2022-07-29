@@ -4,6 +4,7 @@
  * info-comercio-justo router.
  */
 
-const { createCoreRouter } = require('@strapi/strapi').factories;
+const {createCoreRouter} = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::info-comercio-justo.info-comercio-justo');
+module.exports =
+    createCoreRouter('api::info-comercio-justo.info-comercio-justo');

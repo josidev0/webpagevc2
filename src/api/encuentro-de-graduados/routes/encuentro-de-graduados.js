@@ -4,6 +4,7 @@
  * encuentro-de-graduados router.
  */
 
-const { createCoreRouter } = require('@strapi/strapi').factories;
+const {createCoreRouter} = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::encuentro-de-graduados.encuentro-de-graduados');
+module.exports =
+    createCoreRouter('api::encuentro-de-graduados.encuentro-de-graduados');
