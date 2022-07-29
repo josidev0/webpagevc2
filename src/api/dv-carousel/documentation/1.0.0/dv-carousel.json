@@ -63,9 +63,7 @@
           }
         }
       },
-      "tags": [
-        "Dv-carousel"
-      ],
+      "tags": ["Dv-carousel"],
       "parameters": [],
       "operationId": "get/dv-carousel"
     }

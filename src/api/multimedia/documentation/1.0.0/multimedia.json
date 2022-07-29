@@ -63,9 +63,7 @@
           }
         }
       },
-      "tags": [
-        "Multimedia"
-      ],
+      "tags": ["Multimedia"],
       "parameters": [],
       "operationId": "get/multimedia"
     }

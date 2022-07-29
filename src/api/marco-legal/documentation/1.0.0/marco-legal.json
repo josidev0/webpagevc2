@@ -63,9 +63,7 @@
           }
         }
       },
-      "tags": [
-        "Marco-legal"
-      ],
+      "tags": ["Marco-legal"],
       "parameters": [
         {
           "name": "sort",
@@ -213,9 +211,7 @@
           }
         }
       },
-      "tags": [
-        "Marco-legal"
-      ],
+      "tags": ["Marco-legal"],
       "parameters": [],
       "operationId": "post/marco-legals",
       "requestBody": {
@@ -294,9 +290,7 @@
           }
         }
       },
-      "tags": [
-        "Marco-legal"
-      ],
+      "tags": ["Marco-legal"],
       "parameters": [
         {
           "name": "id",
@@ -374,9 +368,7 @@
           }
         }
       },
-      "tags": [
-        "Marco-legal"
-      ],
+      "tags": ["Marco-legal"],
       "parameters": [
         {
           "name": "id",
@@ -465,9 +457,7 @@
           }
         }
       },
-      "tags": [
-        "Marco-legal"
-      ],
+      "tags": ["Marco-legal"],
       "parameters": [
         {
           "name": "id",

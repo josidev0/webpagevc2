@@ -63,9 +63,7 @@
           }
         }
       },
-      "tags": [
-        "Upload - File"
-      ],
+      "tags": ["Upload - File"],
       "parameters": [],
       "operationId": "get/upload/files/count"
     }
@@ -134,9 +132,7 @@
           }
         }
       },
-      "tags": [
-        "Upload - File"
-      ],
+      "tags": ["Upload - File"],
       "parameters": [
         {
           "name": "sort",
@@ -286,9 +282,7 @@
           }
         }
       },
-      "tags": [
-        "Upload - File"
-      ],
+      "tags": ["Upload - File"],
       "parameters": [
         {
           "name": "id",
@@ -367,9 +361,7 @@
           }
         }
       },
-      "tags": [
-        "Upload - File"
-      ],
+      "tags": ["Upload - File"],
       "parameters": [
         {
           "name": "id",

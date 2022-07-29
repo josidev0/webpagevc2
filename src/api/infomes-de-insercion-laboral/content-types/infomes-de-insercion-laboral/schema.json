@@ -17,9 +17,7 @@
       "unique": true
     },
     "document": {
-      "allowedTypes": [
-        "files"
-      ],
+      "allowedTypes": ["files"],
       "type": "media",
       "multiple": false,
       "required": false

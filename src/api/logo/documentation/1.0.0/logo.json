@@ -63,9 +63,7 @@
           }
         }
       },
-      "tags": [
-        "Logo"
-      ],
+      "tags": ["Logo"],
       "parameters": [
         {
           "name": "sort",
@@ -213,9 +211,7 @@
           }
         }
       },
-      "tags": [
-        "Logo"
-      ],
+      "tags": ["Logo"],
       "parameters": [],
       "operationId": "put/logo",
       "requestBody": {
@@ -293,9 +289,7 @@
           }
         }
       },
-      "tags": [
-        "Logo"
-      ],
+      "tags": ["Logo"],
       "parameters": [],
       "operationId": "delete/logo"
     }

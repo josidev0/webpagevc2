@@ -15,9 +15,7 @@
       "type": "string"
     },
     "document": {
-      "allowedTypes": [
-        "files"
-      ],
+      "allowedTypes": ["files"],
       "type": "media",
       "multiple": false
     },

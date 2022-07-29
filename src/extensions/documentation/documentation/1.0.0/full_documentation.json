@@ -20,11 +20,7 @@
     "path": "/documentation",
     "showGeneratedFiles": true,
     "generateDefaultResponse": true,
-    "plugins": [
-      "email",
-      "upload",
-      "users-permissions"
-    ]
+    "plugins": ["email", "upload", "users-permissions"]
   },
   "servers": [
     {
@@ -52,9 +48,7 @@
     "schemas": {
       "Error": {
         "type": "object",
-        "required": [
-          "error"
-        ],
+        "required": ["error"],
         "properties": {
           "data": {
             "nullable": true,
@@ -89,15 +83,10 @@
       },
       "ConvenioInterinstitucionalRequest": {
         "type": "object",
-        "required": [
-          "data"
-        ],
+        "required": ["data"],
         "properties": {
           "data": {
-            "required": [
-              "title",
-              "document"
-            ],
+            "required": ["title", "document"],
             "type": "object",
             "properties": {
               "title": {
@@ -2213,15 +2202,10 @@
       },
       "EducacionContinuaRequest": {
         "type": "object",
-        "required": [
-          "data"
-        ],
+        "required": ["data"],
         "properties": {
           "data": {
-            "required": [
-              "title",
-              "document"
-            ],
+            "required": ["title", "document"],
             "type": "object",
             "properties": {
               "title": {
@@ -3647,15 +3631,10 @@
       },
       "EjecucionPresupuestoExternoRequest": {
         "type": "object",
-        "required": [
-          "data"
-        ],
+        "required": ["data"],
         "properties": {
           "data": {
-            "required": [
-              "title",
-              "document"
-            ],
+            "required": ["title", "document"],
             "type": "object",
             "properties": {
               "title": {
@@ -5081,16 +5060,10 @@
       },
       "EventRequest": {
         "type": "object",
-        "required": [
-          "data"
-        ],
+        "required": ["data"],
         "properties": {
           "data": {
-            "required": [
-              "image",
-              "url",
-              "date"
-            ],
+            "required": ["image", "url", "date"],
             "type": "object",
             "properties": {
               "image": {
@@ -6570,15 +6543,10 @@
       },
       "FormatoRequest": {
         "type": "object",
-        "required": [
-          "data"
-        ],
+        "required": ["data"],
         "properties": {
           "data": {
-            "required": [
-              "title",
-              "document"
-            ],
+            "required": ["title", "document"],
             "type": "object",
             "properties": {
               "title": {
@@ -8004,15 +7972,10 @@
       },
       "FormatoConvenioRequest": {
         "type": "object",
-        "required": [
-          "data"
-        ],
+        "required": ["data"],
         "properties": {
           "data": {
-            "required": [
-              "title",
-              "document"
-            ],
+            "required": ["title", "document"],
             "type": "object",
             "properties": {
               "title": {
@@ -9438,15 +9401,10 @@
       },
       "InformeSeguimientoASocializacionRequest": {
         "type": "object",
-        "required": [
-          "data"
-        ],
+        "required": ["data"],
         "properties": {
           "data": {
-            "required": [
-              "title",
-              "document"
-            ],
+            "required": ["title", "document"],
             "type": "object",
             "properties": {
               "title": {
@@ -10872,15 +10830,10 @@
       },
       "InsercionLaboralRequest": {
         "type": "object",
-        "required": [
-          "data"
-        ],
+        "required": ["data"],
         "properties": {
           "data": {
-            "required": [
-              "image",
-              "url"
-            ],
+            "required": ["image", "url"],
             "type": "object",
             "properties": {
               "image": {
@@ -12306,9 +12259,7 @@
       },
       "LogoRequest": {
         "type": "object",
-        "required": [
-          "data"
-        ],
+        "required": ["data"],
         "properties": {
           "data": {
             "required": [
@@ -17489,16 +17440,10 @@
       },
       "MagazineRequest": {
         "type": "object",
-        "required": [
-          "data"
-        ],
+        "required": ["data"],
         "properties": {
           "data": {
-            "required": [
-              "title",
-              "cover",
-              "url"
-            ],
+            "required": ["title", "cover", "url"],
             "type": "object",
             "properties": {
               "title": {
@@ -18942,15 +18887,10 @@
       },
       "MarcoLegalRequest": {
         "type": "object",
-        "required": [
-          "data"
-        ],
+        "required": ["data"],
         "properties": {
           "data": {
-            "required": [
-              "title",
-              "document"
-            ],
+            "required": ["title", "document"],
             "type": "object",
             "properties": {
               "title": {
@@ -20385,14 +20325,10 @@
       },
       "MenuRequest": {
         "type": "object",
-        "required": [
-          "data"
-        ],
+        "required": ["data"],
         "properties": {
           "data": {
-            "required": [
-              "position"
-            ],
+            "required": ["position"],
             "type": "object",
             "properties": {
               "title": {
@@ -22537,16 +22473,10 @@
       },
       "PracticaPreprofesionalRequest": {
         "type": "object",
-        "required": [
-          "data"
-        ],
+        "required": ["data"],
         "properties": {
           "data": {
-            "required": [
-              "title",
-              "document",
-              "type"
-            ],
+            "required": ["title", "document", "type"],
             "type": "object",
             "properties": {
               "title": {
@@ -23996,15 +23926,10 @@
       },
       "ProyectoRequest": {
         "type": "object",
-        "required": [
-          "data"
-        ],
+        "required": ["data"],
         "properties": {
           "data": {
-            "required": [
-              "title",
-              "document"
-            ],
+            "required": ["title", "document"],
             "type": "object",
             "properties": {
               "title": {
@@ -25430,16 +25355,10 @@
       },
       "RedSocialRequest": {
         "type": "object",
-        "required": [
-          "data"
-        ],
+        "required": ["data"],
         "properties": {
           "data": {
-            "required": [
-              "facebook",
-              "instagram",
-              "twitter"
-            ],
+            "required": ["facebook", "instagram", "twitter"],
             "type": "object",
             "properties": {
               "facebook": {
@@ -26132,9 +26051,7 @@
       },
       "SubmenuRequest": {
         "type": "object",
-        "required": [
-          "data"
-        ],
+        "required": ["data"],
         "properties": {
           "data": {
             "required": [],
@@ -27203,15 +27120,10 @@
       },
       "SystemRequest": {
         "type": "object",
-        "required": [
-          "data"
-        ],
+        "required": ["data"],
         "properties": {
           "data": {
-            "required": [
-              "name",
-              "url"
-            ],
+            "required": ["name", "url"],
             "type": "object",
             "properties": {
               "name": {
@@ -28646,9 +28558,7 @@
       },
       "TeamRequest": {
         "type": "object",
-        "required": [
-          "data"
-        ],
+        "required": ["data"],
         "properties": {
           "data": {
             "required": [],
@@ -30098,19 +30008,10 @@
       },
       "UploadFileRequest": {
         "type": "object",
-        "required": [
-          "data"
-        ],
+        "required": ["data"],
         "properties": {
           "data": {
-            "required": [
-              "name",
-              "hash",
-              "mime",
-              "size",
-              "url",
-              "provider"
-            ],
+            "required": ["name", "hash", "mime", "size", "url", "provider"],
             "type": "object",
             "properties": {
               "name": {
@@ -30939,14 +30840,10 @@
       },
       "UsersPermissionsPermissionRequest": {
         "type": "object",
-        "required": [
-          "data"
-        ],
+        "required": ["data"],
         "properties": {
           "data": {
-            "required": [
-              "action"
-            ],
+            "required": ["action"],
             "type": "object",
             "properties": {
               "action": {
@@ -32132,14 +32029,10 @@
       },
       "UsersPermissionsRoleRequest": {
         "type": "object",
-        "required": [
-          "data"
-        ],
+        "required": ["data"],
         "properties": {
           "data": {
-            "required": [
-              "name"
-            ],
+            "required": ["name"],
             "type": "object",
             "properties": {
               "name": {
@@ -33406,15 +33299,10 @@
       },
       "UsersPermissionsUserRequest": {
         "type": "object",
-        "required": [
-          "data"
-        ],
+        "required": ["data"],
         "properties": {
           "data": {
-            "required": [
-              "username",
-              "email"
-            ],
+            "required": ["username", "email"],
             "type": "object",
             "properties": {
               "username": {
@@ -34727,9 +34615,7 @@
             }
           }
         },
-        "tags": [
-          "Convenio-interinstitucional"
-        ],
+        "tags": ["Convenio-interinstitucional"],
         "parameters": [
           {
             "name": "sort",
@@ -34877,9 +34763,7 @@
             }
           }
         },
-        "tags": [
-          "Convenio-interinstitucional"
-        ],
+        "tags": ["Convenio-interinstitucional"],
         "parameters": [],
         "operationId": "post/convenios-interinstitucionales",
         "requestBody": {
@@ -34958,9 +34842,7 @@
             }
           }
         },
-        "tags": [
-          "Convenio-interinstitucional"
-        ],
+        "tags": ["Convenio-interinstitucional"],
         "parameters": [
           {
             "name": "id",
@@ -35038,9 +34920,7 @@
             }
           }
         },
-        "tags": [
-          "Convenio-interinstitucional"
-        ],
+        "tags": ["Convenio-interinstitucional"],
         "parameters": [
           {
             "name": "id",
@@ -35129,9 +35009,7 @@
             }
           }
         },
-        "tags": [
-          "Convenio-interinstitucional"
-        ],
+        "tags": ["Convenio-interinstitucional"],
         "parameters": [
           {
             "name": "id",
@@ -35211,9 +35089,7 @@
             }
           }
         },
-        "tags": [
-          "Dv-carousel"
-        ],
+        "tags": ["Dv-carousel"],
         "parameters": [],
         "operationId": "get/dv-carousel"
       }
@@ -35282,9 +35158,7 @@
             }
           }
         },
-        "tags": [
-          "Educacion-continua"
-        ],
+        "tags": ["Educacion-continua"],
         "parameters": [
           {
             "name": "sort",
@@ -35432,9 +35306,7 @@
             }
           }
         },
-        "tags": [
-          "Educacion-continua"
-        ],
+        "tags": ["Educacion-continua"],
         "parameters": [],
         "operationId": "post/educacion-continuas",
         "requestBody": {
@@ -35513,9 +35385,7 @@
             }
           }
         },
-        "tags": [
-          "Educacion-continua"
-        ],
+        "tags": ["Educacion-continua"],
         "parameters": [
           {
             "name": "id",
@@ -35593,9 +35463,7 @@
             }
           }
         },
-        "tags": [
-          "Educacion-continua"
-        ],
+        "tags": ["Educacion-continua"],
         "parameters": [
           {
             "name": "id",
@@ -35684,9 +35552,7 @@
             }
           }
         },
-        "tags": [
-          "Educacion-continua"
-        ],
+        "tags": ["Educacion-continua"],
         "parameters": [
           {
             "name": "id",
@@ -35766,9 +35632,7 @@
             }
           }
         },
-        "tags": [
-          "Ejecucion-presupuesto-externo"
-        ],
+        "tags": ["Ejecucion-presupuesto-externo"],
         "parameters": [
           {
             "name": "sort",
@@ -35916,9 +35780,7 @@
             }
           }
         },
-        "tags": [
-          "Ejecucion-presupuesto-externo"
-        ],
+        "tags": ["Ejecucion-presupuesto-externo"],
         "parameters": [],
         "operationId": "post/ejecucion-presupuesto-externos",
         "requestBody": {
@@ -35997,9 +35859,7 @@
             }
           }
         },
-        "tags": [
-          "Ejecucion-presupuesto-externo"
-        ],
+        "tags": ["Ejecucion-presupuesto-externo"],
         "parameters": [
           {
             "name": "id",
@@ -36077,9 +35937,7 @@
             }
           }
         },
-        "tags": [
-          "Ejecucion-presupuesto-externo"
-        ],
+        "tags": ["Ejecucion-presupuesto-externo"],
         "parameters": [
           {
             "name": "id",
@@ -36168,9 +36026,7 @@
             }
           }
         },
-        "tags": [
-          "Ejecucion-presupuesto-externo"
-        ],
+        "tags": ["Ejecucion-presupuesto-externo"],
         "parameters": [
           {
             "name": "id",
@@ -36250,9 +36106,7 @@
             }
           }
         },
-        "tags": [
-          "Event"
-        ],
+        "tags": ["Event"],
         "parameters": [
           {
             "name": "sort",
@@ -36400,9 +36254,7 @@
             }
           }
         },
-        "tags": [
-          "Event"
-        ],
+        "tags": ["Event"],
         "parameters": [],
         "operationId": "post/events",
         "requestBody": {
@@ -36481,9 +36333,7 @@
             }
           }
         },
-        "tags": [
-          "Event"
-        ],
+        "tags": ["Event"],
         "parameters": [
           {
             "name": "id",
@@ -36561,9 +36411,7 @@
             }
           }
         },
-        "tags": [
-          "Event"
-        ],
+        "tags": ["Event"],
         "parameters": [
           {
             "name": "id",
@@ -36652,9 +36500,7 @@
             }
           }
         },
-        "tags": [
-          "Event"
-        ],
+        "tags": ["Event"],
         "parameters": [
           {
             "name": "id",
@@ -36734,9 +36580,7 @@
             }
           }
         },
-        "tags": [
-          "Formato"
-        ],
+        "tags": ["Formato"],
         "parameters": [
           {
             "name": "sort",
@@ -36884,9 +36728,7 @@
             }
           }
         },
-        "tags": [
-          "Formato"
-        ],
+        "tags": ["Formato"],
         "parameters": [],
         "operationId": "post/formatos",
         "requestBody": {
@@ -36965,9 +36807,7 @@
             }
           }
         },
-        "tags": [
-          "Formato"
-        ],
+        "tags": ["Formato"],
         "parameters": [
           {
             "name": "id",
@@ -37045,9 +36885,7 @@
             }
           }
         },
-        "tags": [
-          "Formato"
-        ],
+        "tags": ["Formato"],
         "parameters": [
           {
             "name": "id",
@@ -37136,9 +36974,7 @@
             }
           }
         },
-        "tags": [
-          "Formato"
-        ],
+        "tags": ["Formato"],
         "parameters": [
           {
             "name": "id",
@@ -37218,9 +37054,7 @@
             }
           }
         },
-        "tags": [
-          "Formato-convenio"
-        ],
+        "tags": ["Formato-convenio"],
         "parameters": [
           {
             "name": "sort",
@@ -37368,9 +37202,7 @@
             }
           }
         },
-        "tags": [
-          "Formato-convenio"
-        ],
+        "tags": ["Formato-convenio"],
         "parameters": [],
         "operationId": "post/formato-convenios",
         "requestBody": {
@@ -37449,9 +37281,7 @@
             }
           }
         },
-        "tags": [
-          "Formato-convenio"
-        ],
+        "tags": ["Formato-convenio"],
         "parameters": [
           {
             "name": "id",
@@ -37529,9 +37359,7 @@
             }
           }
         },
-        "tags": [
-          "Formato-convenio"
-        ],
+        "tags": ["Formato-convenio"],
         "parameters": [
           {
             "name": "id",
@@ -37620,9 +37448,7 @@
             }
           }
         },
-        "tags": [
-          "Formato-convenio"
-        ],
+        "tags": ["Formato-convenio"],
         "parameters": [
           {
             "name": "id",
@@ -37702,9 +37528,7 @@
             }
           }
         },
-        "tags": [
-          "Informe-seguimiento-a-socializacion"
-        ],
+        "tags": ["Informe-seguimiento-a-socializacion"],
         "parameters": [
           {
             "name": "sort",
@@ -37852,9 +37676,7 @@
             }
           }
         },
-        "tags": [
-          "Informe-seguimiento-a-socializacion"
-        ],
+        "tags": ["Informe-seguimiento-a-socializacion"],
         "parameters": [],
         "operationId": "post/informes-seguimiento-a-socializaciones",
         "requestBody": {
@@ -37933,9 +37755,7 @@
             }
           }
         },
-        "tags": [
-          "Informe-seguimiento-a-socializacion"
-        ],
+        "tags": ["Informe-seguimiento-a-socializacion"],
         "parameters": [
           {
             "name": "id",
@@ -38013,9 +37833,7 @@
             }
           }
         },
-        "tags": [
-          "Informe-seguimiento-a-socializacion"
-        ],
+        "tags": ["Informe-seguimiento-a-socializacion"],
         "parameters": [
           {
             "name": "id",
@@ -38104,9 +37922,7 @@
             }
           }
         },
-        "tags": [
-          "Informe-seguimiento-a-socializacion"
-        ],
+        "tags": ["Informe-seguimiento-a-socializacion"],
         "parameters": [
           {
             "name": "id",
@@ -38186,9 +38002,7 @@
             }
           }
         },
-        "tags": [
-          "Insercion-laboral"
-        ],
+        "tags": ["Insercion-laboral"],
         "parameters": [
           {
             "name": "sort",
@@ -38336,9 +38150,7 @@
             }
           }
         },
-        "tags": [
-          "Insercion-laboral"
-        ],
+        "tags": ["Insercion-laboral"],
         "parameters": [],
         "operationId": "post/inserciones-laborales",
         "requestBody": {
@@ -38417,9 +38229,7 @@
             }
           }
         },
-        "tags": [
-          "Insercion-laboral"
-        ],
+        "tags": ["Insercion-laboral"],
         "parameters": [
           {
             "name": "id",
@@ -38497,9 +38307,7 @@
             }
           }
         },
-        "tags": [
-          "Insercion-laboral"
-        ],
+        "tags": ["Insercion-laboral"],
         "parameters": [
           {
             "name": "id",
@@ -38588,9 +38396,7 @@
             }
           }
         },
-        "tags": [
-          "Insercion-laboral"
-        ],
+        "tags": ["Insercion-laboral"],
         "parameters": [
           {
             "name": "id",
@@ -38670,9 +38476,7 @@
             }
           }
         },
-        "tags": [
-          "Logo"
-        ],
+        "tags": ["Logo"],
         "parameters": [
           {
             "name": "sort",
@@ -38820,9 +38624,7 @@
             }
           }
         },
-        "tags": [
-          "Logo"
-        ],
+        "tags": ["Logo"],
         "parameters": [],
         "operationId": "put/logo",
         "requestBody": {
@@ -38900,9 +38702,7 @@
             }
           }
         },
-        "tags": [
-          "Logo"
-        ],
+        "tags": ["Logo"],
         "parameters": [],
         "operationId": "delete/logo"
       }
@@ -38971,9 +38771,7 @@
             }
           }
         },
-        "tags": [
-          "Magazine"
-        ],
+        "tags": ["Magazine"],
         "parameters": [
           {
             "name": "sort",
@@ -39121,9 +38919,7 @@
             }
           }
         },
-        "tags": [
-          "Magazine"
-        ],
+        "tags": ["Magazine"],
         "parameters": [],
         "operationId": "post/magazines",
         "requestBody": {
@@ -39202,9 +38998,7 @@
             }
           }
         },
-        "tags": [
-          "Magazine"
-        ],
+        "tags": ["Magazine"],
         "parameters": [
           {
             "name": "id",
@@ -39282,9 +39076,7 @@
             }
           }
         },
-        "tags": [
-          "Magazine"
-        ],
+        "tags": ["Magazine"],
         "parameters": [
           {
             "name": "id",
@@ -39373,9 +39165,7 @@
             }
           }
         },
-        "tags": [
-          "Magazine"
-        ],
+        "tags": ["Magazine"],
         "parameters": [
           {
             "name": "id",
@@ -39455,9 +39245,7 @@
             }
           }
         },
-        "tags": [
-          "Marco-legal"
-        ],
+        "tags": ["Marco-legal"],
         "parameters": [
           {
             "name": "sort",
@@ -39605,9 +39393,7 @@
             }
           }
         },
-        "tags": [
-          "Marco-legal"
-        ],
+        "tags": ["Marco-legal"],
         "parameters": [],
         "operationId": "post/marco-legals",
         "requestBody": {
@@ -39686,9 +39472,7 @@
             }
           }
         },
-        "tags": [
-          "Marco-legal"
-        ],
+        "tags": ["Marco-legal"],
         "parameters": [
           {
             "name": "id",
@@ -39766,9 +39550,7 @@
             }
           }
         },
-        "tags": [
-          "Marco-legal"
-        ],
+        "tags": ["Marco-legal"],
         "parameters": [
           {
             "name": "id",
@@ -39857,9 +39639,7 @@
             }
           }
         },
-        "tags": [
-          "Marco-legal"
-        ],
+        "tags": ["Marco-legal"],
         "parameters": [
           {
             "name": "id",
@@ -39939,9 +39719,7 @@
             }
           }
         },
-        "tags": [
-          "Menu"
-        ],
+        "tags": ["Menu"],
         "parameters": [
           {
             "name": "sort",
@@ -40089,9 +39867,7 @@
             }
           }
         },
-        "tags": [
-          "Menu"
-        ],
+        "tags": ["Menu"],
         "parameters": [],
         "operationId": "post/menus",
         "requestBody": {
@@ -40170,9 +39946,7 @@
             }
           }
         },
-        "tags": [
-          "Menu"
-        ],
+        "tags": ["Menu"],
         "parameters": [
           {
             "name": "id",
@@ -40250,9 +40024,7 @@
             }
           }
         },
-        "tags": [
-          "Menu"
-        ],
+        "tags": ["Menu"],
         "parameters": [
           {
             "name": "id",
@@ -40341,9 +40113,7 @@
             }
           }
         },
-        "tags": [
-          "Menu"
-        ],
+        "tags": ["Menu"],
         "parameters": [
           {
             "name": "id",
@@ -40423,9 +40193,7 @@
             }
           }
         },
-        "tags": [
-          "Multimedia"
-        ],
+        "tags": ["Multimedia"],
         "parameters": [],
         "operationId": "get/multimedia"
       }
@@ -40494,9 +40262,7 @@
             }
           }
         },
-        "tags": [
-          "Practica-preprofesional"
-        ],
+        "tags": ["Practica-preprofesional"],
         "parameters": [
           {
             "name": "sort",
@@ -40644,9 +40410,7 @@
             }
           }
         },
-        "tags": [
-          "Practica-preprofesional"
-        ],
+        "tags": ["Practica-preprofesional"],
         "parameters": [],
         "operationId": "post/practicas-preprofesionales",
         "requestBody": {
@@ -40725,9 +40489,7 @@
             }
           }
         },
-        "tags": [
-          "Practica-preprofesional"
-        ],
+        "tags": ["Practica-preprofesional"],
         "parameters": [
           {
             "name": "id",
@@ -40805,9 +40567,7 @@
             }
           }
         },
-        "tags": [
-          "Practica-preprofesional"
-        ],
+        "tags": ["Practica-preprofesional"],
         "parameters": [
           {
             "name": "id",
@@ -40896,9 +40656,7 @@
             }
           }
         },
-        "tags": [
-          "Practica-preprofesional"
-        ],
+        "tags": ["Practica-preprofesional"],
         "parameters": [
           {
             "name": "id",
@@ -40978,9 +40736,7 @@
             }
           }
         },
-        "tags": [
-          "Proyecto"
-        ],
+        "tags": ["Proyecto"],
         "parameters": [
           {
             "name": "sort",
@@ -41128,9 +40884,7 @@
             }
           }
         },
-        "tags": [
-          "Proyecto"
-        ],
+        "tags": ["Proyecto"],
         "parameters": [],
         "operationId": "post/proyectos",
         "requestBody": {
@@ -41209,9 +40963,7 @@
             }
           }
         },
-        "tags": [
-          "Proyecto"
-        ],
+        "tags": ["Proyecto"],
         "parameters": [
           {
             "name": "id",
@@ -41289,9 +41041,7 @@
             }
           }
         },
-        "tags": [
-          "Proyecto"
-        ],
+        "tags": ["Proyecto"],
         "parameters": [
           {
             "name": "id",
@@ -41380,9 +41130,7 @@
             }
           }
         },
-        "tags": [
-          "Proyecto"
-        ],
+        "tags": ["Proyecto"],
         "parameters": [
           {
             "name": "id",
@@ -41462,9 +41210,7 @@
             }
           }
         },
-        "tags": [
-          "Red-social"
-        ],
+        "tags": ["Red-social"],
         "parameters": [
           {
             "name": "sort",
@@ -41612,9 +41358,7 @@
             }
           }
         },
-        "tags": [
-          "Red-social"
-        ],
+        "tags": ["Red-social"],
         "parameters": [],
         "operationId": "put/red-social",
         "requestBody": {
@@ -41692,9 +41436,7 @@
             }
           }
         },
-        "tags": [
-          "Red-social"
-        ],
+        "tags": ["Red-social"],
         "parameters": [],
         "operationId": "delete/red-social"
       }
@@ -41763,9 +41505,7 @@
             }
           }
         },
-        "tags": [
-          "Submenu"
-        ],
+        "tags": ["Submenu"],
         "parameters": [
           {
             "name": "sort",
@@ -41913,9 +41653,7 @@
             }
           }
         },
-        "tags": [
-          "Submenu"
-        ],
+        "tags": ["Submenu"],
         "parameters": [],
         "operationId": "post/submenus",
         "requestBody": {
@@ -41994,9 +41732,7 @@
             }
           }
         },
-        "tags": [
-          "Submenu"
-        ],
+        "tags": ["Submenu"],
         "parameters": [
           {
             "name": "id",
@@ -42074,9 +41810,7 @@
             }
           }
         },
-        "tags": [
-          "Submenu"
-        ],
+        "tags": ["Submenu"],
         "parameters": [
           {
             "name": "id",
@@ -42165,9 +41899,7 @@
             }
           }
         },
-        "tags": [
-          "Submenu"
-        ],
+        "tags": ["Submenu"],
         "parameters": [
           {
             "name": "id",
@@ -42247,9 +41979,7 @@
             }
           }
         },
-        "tags": [
-          "System"
-        ],
+        "tags": ["System"],
         "parameters": [
           {
             "name": "sort",
@@ -42397,9 +42127,7 @@
             }
           }
         },
-        "tags": [
-          "System"
-        ],
+        "tags": ["System"],
         "parameters": [],
         "operationId": "post/systems",
         "requestBody": {
@@ -42478,9 +42206,7 @@
             }
           }
         },
-        "tags": [
-          "System"
-        ],
+        "tags": ["System"],
         "parameters": [
           {
             "name": "id",
@@ -42558,9 +42284,7 @@
             }
           }
         },
-        "tags": [
-          "System"
-        ],
+        "tags": ["System"],
         "parameters": [
           {
             "name": "id",
@@ -42649,9 +42373,7 @@
             }
           }
         },
-        "tags": [
-          "System"
-        ],
+        "tags": ["System"],
         "parameters": [
           {
             "name": "id",
@@ -42731,9 +42453,7 @@
             }
           }
         },
-        "tags": [
-          "Team"
-        ],
+        "tags": ["Team"],
         "parameters": [
           {
             "name": "sort",
@@ -42881,9 +42601,7 @@
             }
           }
         },
-        "tags": [
-          "Team"
-        ],
+        "tags": ["Team"],
         "parameters": [],
         "operationId": "post/teams",
         "requestBody": {
@@ -42962,9 +42680,7 @@
             }
           }
         },
-        "tags": [
-          "Team"
-        ],
+        "tags": ["Team"],
         "parameters": [
           {
             "name": "id",
@@ -43042,9 +42758,7 @@
             }
           }
         },
-        "tags": [
-          "Team"
-        ],
+        "tags": ["Team"],
         "parameters": [
           {
             "name": "id",
@@ -43133,9 +42847,7 @@
             }
           }
         },
-        "tags": [
-          "Team"
-        ],
+        "tags": ["Team"],
         "parameters": [
           {
             "name": "id",
@@ -43215,9 +42927,7 @@
             }
           }
         },
-        "tags": [
-          "Upload - File"
-        ],
+        "tags": ["Upload - File"],
         "parameters": [],
         "operationId": "get/upload/files/count"
       }
@@ -43286,9 +42996,7 @@
             }
           }
         },
-        "tags": [
-          "Upload - File"
-        ],
+        "tags": ["Upload - File"],
         "parameters": [
           {
             "name": "sort",
@@ -43438,9 +43146,7 @@
             }
           }
         },
-        "tags": [
-          "Upload - File"
-        ],
+        "tags": ["Upload - File"],
         "parameters": [
           {
             "name": "id",
@@ -43519,9 +43225,7 @@
             }
           }
         },
-        "tags": [
-          "Upload - File"
-        ],
+        "tags": ["Upload - File"],
         "parameters": [
           {
             "name": "id",
@@ -43601,9 +43305,7 @@
             }
           }
         },
-        "tags": [
-          "Users-permissions - Permission"
-        ],
+        "tags": ["Users-permissions - Permission"],
         "parameters": [],
         "operationId": "get/users-permissions/permissions"
       }
@@ -43672,9 +43374,7 @@
             }
           }
         },
-        "tags": [
-          "Users-permissions - Role"
-        ],
+        "tags": ["Users-permissions - Role"],
         "parameters": [
           {
             "name": "id",
@@ -43754,9 +43454,7 @@
             }
           }
         },
-        "tags": [
-          "Users-permissions - Role"
-        ],
+        "tags": ["Users-permissions - Role"],
         "parameters": [
           {
             "name": "sort",
@@ -43904,9 +43602,7 @@
             }
           }
         },
-        "tags": [
-          "Users-permissions - Role"
-        ],
+        "tags": ["Users-permissions - Role"],
         "parameters": [],
         "operationId": "post/users-permissions/roles",
         "requestBody": {
@@ -43985,9 +43681,7 @@
             }
           }
         },
-        "tags": [
-          "Users-permissions - Role"
-        ],
+        "tags": ["Users-permissions - Role"],
         "parameters": [
           {
             "name": "role",
@@ -44076,9 +43770,7 @@
             }
           }
         },
-        "tags": [
-          "Users-permissions - Role"
-        ],
+        "tags": ["Users-permissions - Role"],
         "parameters": [
           {
             "name": "role",
@@ -44158,9 +43850,7 @@
             }
           }
         },
-        "tags": [
-          "Users-permissions - User"
-        ],
+        "tags": ["Users-permissions - User"],
         "parameters": [],
         "operationId": "get/users/count"
       }
@@ -44229,9 +43919,7 @@
             }
           }
         },
-        "tags": [
-          "Users-permissions - User"
-        ],
+        "tags": ["Users-permissions - User"],
         "parameters": [
           {
             "name": "sort",
@@ -44379,9 +44067,7 @@
             }
           }
         },
-        "tags": [
-          "Users-permissions - User"
-        ],
+        "tags": ["Users-permissions - User"],
         "parameters": [],
         "operationId": "post/users",
         "requestBody": {
@@ -44460,9 +44146,7 @@
             }
           }
         },
-        "tags": [
-          "Users-permissions - User"
-        ],
+        "tags": ["Users-permissions - User"],
         "parameters": [],
         "operationId": "get/users/me"
       }
@@ -44531,9 +44215,7 @@
             }
           }
         },
-        "tags": [
-          "Users-permissions - User"
-        ],
+        "tags": ["Users-permissions - User"],
         "parameters": [
           {
             "name": "id",
@@ -44611,9 +44293,7 @@
             }
           }
         },
-        "tags": [
-          "Users-permissions - User"
-        ],
+        "tags": ["Users-permissions - User"],
         "parameters": [
           {
             "name": "id",
@@ -44702,9 +44382,7 @@
             }
           }
         },
-        "tags": [
-          "Users-permissions - User"
-        ],
+        "tags": ["Users-permissions - User"],
         "parameters": [
           {
             "name": "id",

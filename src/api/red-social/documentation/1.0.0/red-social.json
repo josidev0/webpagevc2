@@ -63,9 +63,7 @@
           }
         }
       },
-      "tags": [
-        "Red-social"
-      ],
+      "tags": ["Red-social"],
       "parameters": [
         {
           "name": "sort",
@@ -213,9 +211,7 @@
           }
         }
       },
-      "tags": [
-        "Red-social"
-      ],
+      "tags": ["Red-social"],
       "parameters": [],
       "operationId": "put/red-social",
       "requestBody": {
@@ -293,9 +289,7 @@
           }
         }
       },
-      "tags": [
-        "Red-social"
-      ],
+      "tags": ["Red-social"],
       "parameters": [],
       "operationId": "delete/red-social"
     }

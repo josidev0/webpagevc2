@@ -19,9 +19,7 @@
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": [
-        "files"
-      ]
+      "allowedTypes": ["files"]
     },
     "isExternal": {
       "type": "boolean",
@@ -32,11 +30,7 @@
     },
     "type": {
       "type": "enumeration",
-      "enum": [
-        "REUVIC",
-        "RENSEG",
-        "Informes de Gestión"
-      ],
+      "enum": ["REUVIC", "RENSEG", "Informes de Gestión"],
       "default": "Informes de Gestión",
       "required": true
     }
