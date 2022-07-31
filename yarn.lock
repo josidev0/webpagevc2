@@ -9341,6 +9341,11 @@ std-env@^3.0.1:
   resolved "https://registry.yarnpkg.com/std-env/-/std-env-3.1.1.tgz#1f19c4d3f6278c52efd08a94574a2a8d32b7d092"
   integrity sha512-/c645XdExBypL01TpFKiG/3RAa/Qmu+zRi0MwAmrdEkwHNuN0ebo8ccAXBBDa5Z0QOJgBskUIbuCK91x0sCVEw==
 
+strapi-code-themes@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/strapi-code-themes/-/strapi-code-themes-1.0.2.tgz#8a32d72d2f2ef592a94b68a6c5853c4cfa78816e"
+  integrity sha512-jT8tJ8uiQlVNACkAnJe5dhCmyOISj4dF+aeWIUyqlqMx3UjR7updZJNIx7uOal6pCCpXoyPAZIuu8qVKmDkufQ==
+
 strapi-plugin-entity-relationship-chart@^4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/strapi-plugin-entity-relationship-chart/-/strapi-plugin-entity-relationship-chart-4.1.0.tgz#9500642b77ea770fbae26641d417d55973bdaa1e"
