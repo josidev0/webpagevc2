@@ -93,6 +93,19 @@
     "show_team_cm": {
       "type": "boolean",
       "default": true
+    },
+    "showFrontPage": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "frontPageImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
     }
   }
 }
