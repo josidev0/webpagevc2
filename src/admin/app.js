@@ -1,5 +1,6 @@
-import spanishTranslations from "./extensions/translations/es.json";
 import favicon from "./extensions/icons/favicon.png";
+import spanishTranslations from "./extensions/translations/es.json";
+
 export default {
   config: {
     auth: {
@@ -9,7 +10,7 @@ export default {
       favicon: favicon,
     },
     // Add a new locale, other than 'en'
-    locales: ["es"],
+    locales: [ "es" ],
     theme: {
       colors: {
         alternative100: "#C6F6D5",
@@ -66,7 +67,7 @@ export default {
     // Disable video tutorials
     tutorials: false,
     // Disable notifications about new Strapi releases
-    notifications: { release: false },
+    notifications: {release: false},
   },
 
   bootstrap() {},
