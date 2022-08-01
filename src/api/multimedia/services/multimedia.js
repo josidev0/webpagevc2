@@ -15,6 +15,7 @@ module.exports = createCoreService(
           "api::multimedia.multimedia",
           {
             fields: [
+              "name",
               "descripcion",
               "mision",
               "vision",
@@ -27,12 +28,17 @@ module.exports = createCoreService(
               "show_vision",
               "show_team_cm",
               "show_carousel",
+              "creation_date",
+              "showFrontPage",
             ],
             populate: {
               mision_image: {
                 fields: ["id", "name", "url"],
               },
               vision_image: {
+                fields: ["id", "name", "url"],
+              },
+              frontPageImage: {
                 fields: ["id", "name", "url"],
               },
             },

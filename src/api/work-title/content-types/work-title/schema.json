@@ -22,7 +22,7 @@
       "default": 2,
       "required": true,
       "max": 10,
-      "min": 1
+      "min": 0
     },
     "equipos": {
       "type": "relation",

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "encuentro-de-graduados",
     "pluralName": "encuentros-de-graduados",
-    "displayName": "Encuentros de graduados"
+    "displayName": "Encuentros de graduados",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,14 +13,16 @@
   "pluginOptions": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "document": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "files"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "isExternal": {
       "type": "boolean",

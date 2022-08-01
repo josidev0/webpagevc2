@@ -10,6 +10,10 @@ const { DocsReducedData } = require("../../../../utils/reduced-data");
 module.exports = {
   allDocs: async () => {
     try {
+      const marcoLegal = await strapi.entityService.findMany(
+        "api::marco-legal.marco-legal",
+        docsQuery
+      );
       const projects = await strapi.entityService.findMany(
         "api::proyecto.proyecto",
         docsQuery
@@ -24,10 +28,6 @@ module.exports = {
       );
       const formatos = await strapi.entityService.findMany(
         "api::formato.formato",
-        docsQuery
-      );
-      const marcoLegal = await strapi.entityService.findMany(
-        "api::marco-legal.marco-legal",
         docsQuery
       );
       const conveniosInterinstitucionales = await strapi.entityService.findMany(
@@ -47,15 +47,66 @@ module.exports = {
         docsQuery
       );
 
-      return DocsReducedData(projects).concat(
+      const resolucionAprobaciones = await strapi.entityService.findMany(
+        "api::resolucion-aprobacion.resolucion-aprobacion",
+        docsQuery
+      );
+
+      const informesCapacitacion = await strapi.entityService.findMany(
+        "api::informe-programa-capacitacion.informe-programa-capacitacion",
+        docsQuery
+      );
+      const gestion = await strapi.entityService.findMany(
+        "api::informe-y-reporte-de-gestion.informe-y-reporte-de-gestion",
+        docsQuery
+      );
+      const comercioJusto = await strapi.entityService.findMany(
+        "api::comercio-justo.comercio-justo",
+        docsQuery
+      );
+      const auditorio = await strapi.entityService.findMany(
+        "api::auditorio.auditorio",
+        docsQuery
+      );
+      const informesInsercion = await strapi.entityService.findMany(
+        "api::infomes-de-insercion-laboral.infomes-de-insercion-laboral",
+        docsQuery
+      );
+      const cursos = await strapi.entityService.findMany(
+        "api::curso-fortalecimiento-profesional.curso-fortalecimiento-profesional",
+        docsQuery
+      );
+      const informes = await strapi.entityService.findMany(
+        "api::informe-de-seguimiento-a-graduados.informe-de-seguimiento-a-graduados",
+        docsQuery
+      );
+      const formatosSeg = await strapi.entityService.findMany(
+        "api::formato-de-seguimieto-a-graduados.formato-de-seguimieto-a-graduados",
+        docsQuery
+      );
+      const encuentros = await strapi.entityService.findMany(
+        "api::encuentro-de-graduados.encuentro-de-graduados",
+        docsQuery
+      );
+      return DocsReducedData(marcoLegal).concat(
+        projects,
+        formatos,
         externalBudget,
         informesSeguimiento,
-        formatos,
-        marcoLegal,
+        resolucionAprobaciones,
         conveniosInterinstitucionales,
         formatosConvenios,
         educacionContinua,
-        practicasPreprofesionales
+        informesCapacitacion,
+        practicasPreprofesionales,
+        gestion,
+        comercioJusto,
+        auditorio,
+        informesInsercion,
+        cursos,
+        informes,
+        formatosSeg,
+        encuentros
       );
     } catch (err) {
       return err;
