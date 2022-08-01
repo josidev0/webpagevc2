@@ -8,7 +8,6 @@ export default {
     head: {
       favicon: favicon,
     },
-    // Add a new locale, other than 'en'
     locales: ["es"],
     theme: {
       colors: {
