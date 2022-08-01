@@ -62,18 +62,14 @@
       "type": "media",
       "multiple": false,
       "required": true,
-      "allowedTypes": [
-        "images"
-      ],
+      "allowedTypes": ["images"],
       "pluginOptions": {}
     },
     "vision_image": {
       "type": "media",
       "multiple": false,
       "required": true,
-      "allowedTypes": [
-        "images"
-      ],
+      "allowedTypes": ["images"],
       "pluginOptions": {}
     },
     "show_vision": {
@@ -100,9 +96,7 @@
       "required": true
     },
     "frontPageImage": {
-      "allowedTypes": [
-        "images"
-      ],
+      "allowedTypes": ["images"],
       "type": "media",
       "multiple": false,
       "required": true
