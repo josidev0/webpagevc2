@@ -10,7 +10,7 @@ export default {
       favicon: favicon,
     },
     // Add a new locale, other than 'en'
-    locales: [ "es" ],
+    locales: ["es"],
     theme: {
       colors: {
         alternative100: "#C6F6D5",
@@ -67,7 +67,7 @@ export default {
     // Disable video tutorials
     tutorials: false,
     // Disable notifications about new Strapi releases
-    notifications: {release: false},
+    notifications: { release: false },
   },
 
   bootstrap() {},
