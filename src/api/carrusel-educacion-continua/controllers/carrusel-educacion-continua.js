@@ -1,10 +1,11 @@
-'use strict';
+"use strict";
 
 /**
  *  carrusel-educacion-continua controller
  */
 
-const {createCoreController} = require('@strapi/strapi').factories;
+const { createCoreController } = require("@strapi/strapi").factories;
 
 module.exports = createCoreController(
-    'api::carrusel-educacion-continua.carrusel-educacion-continua');
+  "api::carrusel-educacion-continua.carrusel-educacion-continua"
+);
