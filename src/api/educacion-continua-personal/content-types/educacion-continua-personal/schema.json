@@ -29,6 +29,12 @@
     },
     "email": {
       "type": "email"
+    },
+    "ce_position": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::ce-position.ce-position",
+      "inversedBy": "ce_member"
     }
   }
 }
