@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "docs_configs",
+  "info": {
+    "singularName": "docs-config",
+    "pluralName": "docs-configs",
+    "displayName": "docs config"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "code": {
+      "type": "json",
+      "required": true
+    }
+  }
+}
