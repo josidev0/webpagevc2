@@ -4,6 +4,7 @@
  * carrusel-educacion-continua router.
  */
 
-const { createCoreRouter } = require('@strapi/strapi').factories;
+const {createCoreRouter} = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::carrusel-educacion-continua.carrusel-educacion-continua');
+module.exports = createCoreRouter(
+    'api::carrusel-educacion-continua.carrusel-educacion-continua');

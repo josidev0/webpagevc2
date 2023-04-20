@@ -4,6 +4,7 @@
  * carrusel-educacion-continua service.
  */
 
-const { createCoreService } = require('@strapi/strapi').factories;
+const {createCoreService} = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::carrusel-educacion-continua.carrusel-educacion-continua');
+module.exports = createCoreService(
+    'api::carrusel-educacion-continua.carrusel-educacion-continua');
