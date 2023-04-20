@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "carrusel_educacion_continuas",
+  "info": {
+    "singularName": "carrusel-educacion-continua",
+    "pluralName": "carrusel-educacion-continuas",
+    "displayName": "Carrusel: Educación continúa "
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "images": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}
