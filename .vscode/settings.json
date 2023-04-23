@@ -6,6 +6,7 @@
     "faculty",
     "trade",
     "contact",
-    "config"
+    "config",
+    "api"
   ]
 }
