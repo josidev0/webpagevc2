@@ -21,6 +21,14 @@
       "relation": "oneToOne",
       "target": "api::educacion-continua-personal.educacion-continua-personal",
       "inversedBy": "ce_position"
+    },
+    "priority": {
+      "type": "integer",
+      "required": true,
+      "default": 1,
+      "unique": true,
+      "max": 10,
+      "min": 0
     }
   }
 }

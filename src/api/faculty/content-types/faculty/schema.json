@@ -30,11 +30,11 @@
         "images"
       ]
     },
-    "ce_member": {
+    "ce_members": {
       "type": "relation",
-      "relation": "oneToOne",
+      "relation": "oneToMany",
       "target": "api::educacion-continua-personal.educacion-continua-personal",
-      "inversedBy": "faculty"
+      "mappedBy": "faculty"
     }
   }
 }
