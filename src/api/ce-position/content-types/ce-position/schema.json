@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ce_positions",
+  "info": {
+    "singularName": "ce-position",
+    "pluralName": "ce-positions",
+    "displayName": "Educación Continua: Cargos",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "position": {
+      "type": "string",
+      "required": true
+    },
+    "ce_member": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::educacion-continua-personal.educacion-continua-personal",
+      "inversedBy": "ce_position"
+    },
+    "priority": {
+      "type": "integer",
+      "required": true,
+      "default": 1,
+      "unique": true,
+      "max": 10,
+      "min": 0
+    }
+  }
+}

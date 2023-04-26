@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "visit_counters",
+  "info": {
+    "singularName": "visit-counter",
+    "pluralName": "visit-counters",
+    "displayName": "Visit counter"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "visits": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

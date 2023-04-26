@@ -1,3 +1,12 @@
 {
-  "conventionalCommits.scopes": ["carousel", "db", "continuing-education"]
+  "conventionalCommits.scopes": [
+    "carousel",
+    "db",
+    "continuing-education",
+    "faculty",
+    "trade",
+    "contact",
+    "config",
+    "api"
+  ]
 }

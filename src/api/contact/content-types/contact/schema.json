@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_info",
+  "info": {
+    "singularName": "contact",
+    "pluralName": "contact-info",
+    "displayName": "Contacto",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "email",
+      "required": true,
+      "unique": true
+    },
+    "phone": {
+      "type": "string",
+      "required": true
+    },
+    "location": {
+      "type": "string"
+    }
+  }
+}

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "educacion-continua-personal",
     "pluralName": "educacion-continua-personals",
-    "displayName": "Educación Continua: Personal"
+    "displayName": "Educación Continua: Personal",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,12 +17,12 @@
       "required": true
     },
     "photo": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "contact": {
       "type": "string",
@@ -29,6 +30,18 @@
     },
     "email": {
       "type": "email"
+    },
+    "ce_position": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::ce-position.ce-position",
+      "mappedBy": "ce_member"
+    },
+    "faculty": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::faculty.faculty",
+      "inversedBy": "ce_members"
     }
   }
 }
