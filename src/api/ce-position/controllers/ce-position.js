@@ -4,6 +4,6 @@
  *  ce-position controller
  */
 
-const { createCoreController } = require('@strapi/strapi').factories;
+const {createCoreController} = require('@strapi/strapi').factories;
 
 module.exports = createCoreController('api::ce-position.ce-position');
